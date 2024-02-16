@@ -7,16 +7,12 @@
 }
 body{
 	font-family: 'Cutive Mono';
-	background-color:rgba(0,0,0,1.00);
-	color:rgba(226, 88, 34,1.00);
-    cursor: url(torch.png), auto;
-    
+	
 	/*overflow:hidden;*/
 }
 
 body * {
     z-index: 20;
-    color: rgba(0,0,0,1.00);
 }
 
 .text-container {
@@ -106,17 +102,6 @@ h4{
 
 /*/////////////////////////////////  FLASHLIGHT EFFECT ////////////////////////////  */
 
-#light {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background-color: #fff;
-    z-index: 10;
-    -webkit-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
-    -moz-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
-    box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
-
-}
 
 
 /*//////////////////////////////// END FLASHLIGHT EFFECT ///////////////////////////  */
